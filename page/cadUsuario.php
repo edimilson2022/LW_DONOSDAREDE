@@ -1,10 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8"/>
 <title>Document</title>
-<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div class="container" >
@@ -15,10 +13,8 @@
       
       <!--FORMULÁRIO DE CADASTRO-->
       <div id="cadastro">
-        <form method="post" action=""> 
+        <form method="post" action="../controle/controleUsuario.php"> 
           <h1>Cadastro</h1> 
-          
-          
           <p> 
             <label for="nome_cad">Seu nome</label>
             <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto" />
@@ -47,11 +43,6 @@
       </div>
     </div>
   </div> 
-  
 
 </body>
 </html>
-<<<<<<< HEAD
-=======
-
->>>>>>> 092e20741812c6942a657c29c6c36659a18668e3
