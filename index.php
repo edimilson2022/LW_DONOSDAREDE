@@ -22,24 +22,6 @@
 <nav>
 <a class="btn btn-primary" href="page/login.php" role="button" style="background-color:black; border-color:red; color:white">Login</a>
 </div>
-<style type="text/css">
-     
-     .text-box{
-   margin-left: 40vw;
-        margin-top: 30vh;
-   }
-   
-   .text-box1{
-   margin-left: 50vw;
-        margin-top: 50vh;
-   }
-     
-   h1{
-       
-       color: white;
-       font-family: "Open Sans Condesed", sans-serif;
-   }
-     </style>
 </nav>
 
 </body>
