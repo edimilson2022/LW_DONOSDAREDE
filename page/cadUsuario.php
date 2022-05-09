@@ -2,7 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
+<<<<<<< HEAD
 <title>Document</title>
+=======
+<title>Cadastron de Usuário</title>
+<link rel="stylesheet" href="../css/style.css">
+>>>>>>> 3d56c77fa577f266a0c2cc498253b955c4097cd1
 </head>
 <<<<<<< HEAD
 <body>
