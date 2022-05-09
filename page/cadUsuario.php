@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8"/>
 <title>Document</title>
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div class="container" >
@@ -15,6 +17,7 @@
       <div id="cadastro">
         <form method="post" action=""> 
           <h1>Cadastro</h1> 
+          
           
           <p> 
             <label for="nome_cad">Seu nome</label>
@@ -44,7 +47,8 @@
       </div>
     </div>
   </div> 
+  
 
 </body>
 </html>
->>>>>>> 127f0db7fb2a355c8c8b6e481ce26256aaf2cfe8
+
