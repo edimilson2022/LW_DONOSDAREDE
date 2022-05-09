@@ -24,6 +24,7 @@
     width: 500px;
     margin: 0px auto;
     position: relative; 
+    display: flex;
   }
   
   /* formatando o cabeçalho dos formulários */
@@ -49,9 +50,11 @@
   p{
     margin-bottom:15px;
   }
+
   p:first-child{
     margin: 0px;
   }
+
   label{
     color: #405c60;
     position: relative;
@@ -63,11 +66,13 @@
     color: #bebcbc; 
     font-style: italic;
   }
+
   input:-moz-placeholder,
   textarea:-moz-placeholder{
     color: #bebcbc;
     font-style: italic;
-  } 
+  }
+   
   input {
     outline: none;
   }
@@ -129,9 +134,9 @@
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(29, 162, 193);
+    color: rgb(8, 92, 110);
     margin-left: 10px;
-    border: 1px solid #cbd518;
+    border: 1px solid #080803;
   
     -webkit-border-radius: 4px;
     border-radius: 4px;  
@@ -144,9 +149,17 @@
     background: #f7f7f7;
     border: 1px solid #4ab3c6;
   }
+
+  #menu{
+    width: 100%;
+  }
   
+  .indice{
+    background-image: url('../img/futebol.png');
+  }
   /* estilos para para ambos os formulários */
-  #cadastro, 
+  #cadastro,
+  #menu, 
   #login{
     position: absolute;
     top: 0px;
