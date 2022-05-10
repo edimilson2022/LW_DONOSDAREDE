@@ -7,7 +7,7 @@
   
   body{
     margin:10px;
-    background-color: #066a75;
+    background-color: #d49408;
   }
   
   a{
@@ -30,7 +30,7 @@
   /* formatando o cabeçalho dos formulários */
   h1{
     font-size: 48px;
-    color: #066a75;
+    color: #e69f06;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -97,7 +97,7 @@
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: #3d9db3;
+    background: #022d36;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;  
@@ -134,7 +134,7 @@
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(8, 92, 110);
+    color: rgb(194, 150, 6);
     margin-left: 10px;
     border: 1px solid #080803;
   
@@ -145,7 +145,7 @@
     transition: all 0.4s  linear;
   }
   .link a:hover {
-    color: #39bfd7;
+    color: #032329;
     background: #f7f7f7;
     border: 1px solid #4ab3c6;
   }
@@ -155,7 +155,7 @@
   }
   
   .indice{
-    background-image: url('../img/futebol.png');
+    background-image: url('../img/campo.jpg');
   }
   /* estilos para para ambos os formulários */
   #cadastro,

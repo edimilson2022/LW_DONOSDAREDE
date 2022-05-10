@@ -3,9 +3,12 @@
      <head>
           <meta charset="UTF-8"/>
           <title>Página Inicial</title>
+          <h1>LOJA</h1>
           <link rel="stylesheet" href="css/style.css">
      </head>
      <body class="indice">
+          <br></br>
+
           <div class="content">
           <div id="menu">
           <nav>

@@ -16,11 +16,11 @@
           <h1>Login</h1> 
           <p> 
             <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="contato@htmlecsspro.com"/>
+            <input id="email_login" name="email_login" required="required" type="text" />
           </p> 
           <p> 
             <label for="senha_login">Sua senha</label>
-            <input id="senha_login" name="senha_login" required="required" type="password" placeholder="1234" /> 
+            <input id="senha_login" name="senha_login" required="required" type="password"  /> 
           </p>
           <p> 
             <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
@@ -30,8 +30,8 @@
             <input type="submit" value="Logar" /> 
           </p>
           <p class="link">
-            Ainda não tem conta?
             <a href="./cadUsuario.php">Cadastre-se</a>
+            <a href="../index.php">Ínicio</a>
           </p>
         </form>
       </div>
