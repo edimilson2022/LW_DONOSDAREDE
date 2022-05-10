@@ -29,7 +29,7 @@ if ($_POST['enviar']) {
     if (!$controle->cadastraUsuario($arr)) {
         echo 'Aconteceu algum erro';
     } else {
-        $tipo_acesso = $controle->verificaAcesso($nome, $email;$senha);
+        $tipo_acesso = $controle->verificaAcesso($nome, $email,$senha );
         if ($tipo_acesso[0]['id_tipo_acesso'] == 1) {
             header("Location:paginas/pagina1.html");
         } else if ($tipo_acesso[0]['id_tipo_acesso'] == 2) {
