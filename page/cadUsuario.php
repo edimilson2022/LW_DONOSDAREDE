@@ -2,10 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
-<title>Cadastron de Usuário</title>
-<br></br>
-<br></br>
-<link rel="stylesheet" href="../css/style.css">
+<title>Document</title>
 </head>
 <body class="indice">
   <div class="container" >
@@ -32,8 +29,8 @@
               <input type="submit" value="Cadastrar"/> 
             </p>
             <p class="link">  
+              Já tem conta?
               <a href="./login.php"> Ir para Login </a>
-              <a href="../index.php">Ínicio</a>
             </p>
           </form>
         </div>
