@@ -29,7 +29,7 @@
             <label for="manterlogado">Manter-me logado</label>
           </p>
           <p> 
-            <input type="submit" value="Logar" /> 
+            <input type="submit" value="Entrar" /> 
           </p>
           <p class="link">
             <a href="./cadUsuario.php">Cadastre-se</a>
