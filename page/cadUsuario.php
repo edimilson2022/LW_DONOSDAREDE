@@ -30,7 +30,6 @@
               <input type="submit" value="Cadastrar"/> 
             </p>
             <p class="link">  
-              Já tem conta?
               <a href="./login.php"> Ir para Login </a>
             </p>
           </form>
