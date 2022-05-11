@@ -22,10 +22,10 @@ if ($_POST['enviar']) {
     $nome = $_POST['nome'];
     $email = md5($_POST['email']);
 	$senha = $_POST['senha']
-    $tipo_usuario = $_POST['tipo_usuario'];
+    $tipo_usuario= $_POST['tipo_usuario'];
     $arr = array('nome_usuario' => $nome, 'email_usuario' => $email, 'senha_usuario' => $senha 
 
-'id_tipo_acesso' => $tipo_usuario);
+'id_tipo_usuario' => $tipo_usuario);
     if (!$controle->cadastraUsuario($arr)) {
         echo 'Aconteceu algum erro';
     } else {
