@@ -1,12 +1,13 @@
 <?php
-     $servidor="localhost";
+
+     $hostname="localhost";
+     $bancodedados="projeto";
      $usuario="root";
      $senha="";
-     $dbname="projeto";
 
-     $conexao=mysqli_connct(servidor, $usuario, $senha, $dbname)
-     if(!$conexao){
-          die("houve um erro :".mysqli_connect_error());
-
-     }
+     $mysqli= new mysqli_($hostnama, $usuario, $senha, $bancodedados);
+     if(mysqli->connect_errno){
+         echo"falha ao connectar: (" . $mysqli ->connect_errno . ")" . $mysqli->connect_error;
+}else
+      echo"conectado!";
  ?>
