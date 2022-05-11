@@ -13,7 +13,7 @@
           <div id="menu">
           <nav>
                <div class="link">
-                    <a class="btn btn-outline-danger" href="./page/cadUsuario.php" role="button">Cadastro</a>
+                    <a class="btn btn-outline-danger" href="./page/cadUsuario.php" role="button">Cadastro </a>
                     <a class="btn btn-primary" href="./page/login.php" role="button">Login</a>
                </div>
           </nav>
