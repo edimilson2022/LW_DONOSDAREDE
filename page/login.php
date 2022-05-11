@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <title>Página de Login</title>
+<br></br>
+<br></br>
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="indice">
