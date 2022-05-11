@@ -7,7 +7,7 @@
   
   body{
     margin:10px;
-    background-color: #d49408;
+    background-color: #0b6d34;
   }
   
   a{
@@ -30,7 +30,7 @@
   /* formatando o cabeçalho dos formulários */
   h1{
     font-size: 48px;
-    color: #e69f06;
+    color: #0e8d63;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -97,7 +97,7 @@
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: #022d36;
+    background: #009670;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;  
@@ -134,7 +134,7 @@
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(194, 150, 6);
+    color: rgb(17, 145, 91);
     margin-left: 10px;
     border: 1px solid #080803;
   
