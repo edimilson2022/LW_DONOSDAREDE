@@ -11,6 +11,7 @@
 <div class="container" >
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
+    <a class="links" id="paraprodutos"></a>
     <div class="content">      
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">

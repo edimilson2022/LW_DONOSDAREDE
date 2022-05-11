@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
-<title>Cadastron de Usuário</title>
+<title>Cadastron de Produtos</title>
 <br></br>
 <br></br>
 <link rel="stylesheet" href="../css/style.css">
@@ -12,10 +12,10 @@
       <a class="links" id="paracadastro"></a>
       <a class="links" id="paralogin"></a>
       <div class="content">      
-        <!--FORMULÁRIO DE CADASTRO-->
+        <!--FORMULÁRIO DE CADASTRO DE PRODUTOS-->
         <div id="cadastro">
           <form method="post" action=""> 
-            <h1>Cadastro</h1> 
+            <h1>produtos</h1> 
             <p> 
               <label for="nome_cad">Seu nome</label>
               <input id="nome_cad" name="nome_cad" required="required" type="text" />
