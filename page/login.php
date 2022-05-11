@@ -25,7 +25,7 @@
             <input id="senha_login" name="senha_login" required="required" type="password"  /> 
           </p>
           <p> 
-            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="logar" /> 
             <label for="manterlogado">Manter-me logado</label>
           </p>
           <p> 
