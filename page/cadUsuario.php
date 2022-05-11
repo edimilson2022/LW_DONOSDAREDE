@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
+<link rel="stylesheet" href="../css/style.css">
 <title>Document</title>
 </head>
 <body class="indice">
@@ -15,7 +16,7 @@
             <h1>Cadastro</h1> 
             <p> 
               <label for="nome_cad">Seu nome</label>
-              <input id="nome_cad" name="nome_cad" required="required" type="text" />
+              <input id="nome_cad" name="nome_cad" required="required" type="text"  />
             </p>  
             <p> 
               <label for="email_cad">Seu e-mail</label>
