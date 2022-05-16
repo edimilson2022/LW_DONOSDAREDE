@@ -15,22 +15,22 @@
     <div class="content">      
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
-        <form method="post" action=""> 
+        <form method="post" action="../controle/controleUsuario.php"> 
           <h1>Login</h1> 
           <p> 
             <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email_login" required="required" type="text" />
+            <input id="email_login" name="email" required="required" type="text" />
           </p> 
           <p> 
             <label for="senha_login">Sua senha</label>
-            <input id="senha_login" name="senha_login" required="required" type="password"  /> 
+            <input id="senha_login" name="senha" required="required" type="password"  /> 
           </p>
           <p> 
             <input type="checkbox" name="manterlogado" id="manterlogado" value="logar" /> 
             <label for="manterlogado">Manter-me logado</label>
           </p>
           <p> 
-            <input type="submit" value="Entrar" /> 
+            <input type="submit" value="Entrar" name="entrar"/> 
           </p>
           <p class="link">
             <a href="./cadUsuario.php">Cadastre-se</a>
