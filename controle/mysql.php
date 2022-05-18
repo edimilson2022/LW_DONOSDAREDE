@@ -11,7 +11,7 @@ namespace Mysql {
         var $db, $conn;
         public function __construct($server, $database, $username, $password) {
             $this->conn = mysqli_connect($server, $username, $password);
-            $this->db = mysqli_select_db($database, $this->conn);
+            $this->db = mysqli_select_db($this->conn, $database);
         }
         /**
          * Função de seleção dos registros da tabela
@@ -46,7 +46,7 @@ namespace Mysql {
         }
 
         private function executar($sql) {
-            $return_result = mysqli_query($sql, $this->conn);
+            $return_result = mysqli_query( $this->conn,$sql);
             if ($return_result) {
                 return $return_result;
             } else {

@@ -1,7 +1,7 @@
 <?php
 //utilização de namespaces
 namespace processaAcesso {
-include 'controle/mysql.php';
+include 'mysql.php';
     use Mysql as Mysql;
     class ProcessaAcesso {
         var $db;
