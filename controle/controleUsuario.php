@@ -6,23 +6,30 @@ use processaAcesso as processaAcesso;
 $controle = new \processaAcesso\ProcessaAcesso;
 if ($_POST['entrar']) {
     $tipo = 2;
-    $nome = $_POST['nome'];
-    $email = md5($_POST['email']);
-    $senha = $_POST['senha'];
+    // $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $senha = md5($_POST['senha']);
     $usuario = $controle->verificaAcesso($email, $senha);
-    //redirecionando para pagina conforme o tipo do usuário
-    if ($usuario[0]['tipousuario'] == 1) {
-        header("Location:page/areaAdmin.php");
-    } else if ($usuario[0]['id_tipo_acesso'] == 2) {
-        header("Location:page/areaAdmin.php");
-    }
+
+    var_dump($email);
+
+    var_dump($senha);
+
+    var_dump($usuario);
+
+    // //redirecionando para pagina conforme o tipo do usuário
+    // if ($usuario[2]['tipousuario'] == 1) {
+    //     header("Location:page/areaAdmin.php");
+    // } else if ($usuario[2]['tipousuario'] == 2) {
+    //     header("Location:page/areaAdmin.php");
+    // }
 } else if ($_POST['cadastrar']) {
     $nome = $_POST['nome'];
     $email = md5($_POST['email']);
     $senha = $_POST['senha'];
-    // $tipo_usuario = $_POST['tipo_usuario'];
+    $tipo_usuario = $_POST['tipo_usuario'];
     $arr = array('nome' => $nome, 'email' => $email, 'senha' => $senha,
-'id_tipo_acesso' => $tipo_usuario);
+'tipousuario' => $tipo_usuario);
     if (!$controle->cadastraUsuario($arr)) {
         echo 'Aconteceu algum erro';
     } else {

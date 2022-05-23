@@ -4,16 +4,22 @@ namespace processaAcesso {
 include 'mysql.php';
     use Mysql as Mysql;
     class ProcessaAcesso {
+        
         var $db;
+
         public function __construct() {
             $conexao = new Mysql\mysql(DB_SERVER, DB_NAME, DB_USERNAME, DB_PASSWORD);
             $this->db = $conexao;
         }
+
         public function verificaAcesso($email, $senha) {
+            $db = new ProcessaAcesso();
             $select = $this->db->select('usuario', '*',
 " where email = '$email' and senha = '$senha'");
             return $select;
+            var_dump($select);
         }
+
         public function cadastraUsuario($dados){
             $insert = $this->db->insert('usuario', $dados);
             return $insert;

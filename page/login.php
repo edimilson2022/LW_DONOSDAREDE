@@ -17,13 +17,16 @@
       <div id="login">
         <form method="post" action="../controle/controleUsuario.php"> 
           <h1>Login</h1> 
-          <p> 
+          <!-- <p> 
+            <label for="nome_login">Seu e-mail</label>
+            <input id="nome_login" name="nome" required="required" type="text" />
+          </p>  -->
             <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email" required="required" type="text" />
+            <input id="email" name="email" required="required" type="text" />
           </p> 
           <p> 
             <label for="senha_login">Sua senha</label>
-            <input id="senha_login" name="senha" required="required" type="password"  /> 
+            <input id="senha" name="senha" required="required" type="password"  /> 
           </p>
           <p> 
             <input type="checkbox" name="manterlogado" id="manterlogado" value="logar" /> 

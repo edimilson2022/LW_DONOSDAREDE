@@ -24,8 +24,9 @@ namespace Mysql {
             $result = $this->executar($sql);
             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
                 $return[] = $row;
+                return $return;
             }
-            return $return;
+            
         }
 
         /**
