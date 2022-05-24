@@ -14,5 +14,13 @@
       <div class="content">      
         </div>
         
+        <form  method="POST"  action="processa.php" enctype="multipart/form-data">
+              <label>Nome:</label> 
+              <input type="text" name="nome"><br><br>
+              <label>Imagem:</label> 
+              <input type="file" name="arquivo"/>
+              <input type="submit" value="Cadastrar">
+
+        </form>
 </body>
 </html>
