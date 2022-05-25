@@ -14,13 +14,13 @@
     $servidor = "localhost";
     $usuario = "root";
     $senha = "";
-    $bancodedados="produtos";
+    $dbname="cadprodutos";
 
     //Criar a conexao
-    $conn = mysqli_connect($hostname, $usuario, $senha, $bancodedados);
+    $conn = mysqli_connect($hostname, $usuario, $senha, $dbname);
      if(!$conn){
-         die("Falha na conexao: " . mysqli_connect_error())
-     ;}else{
+         die("Falha na conexao: " . mysqli_connect_error());
+     }else{
       //echo"conectado!";
      }
 ?>

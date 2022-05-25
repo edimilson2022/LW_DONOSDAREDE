@@ -18,16 +18,21 @@
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
         <form method="post" action="../controle/controleUsuario.php"> 
-          <h1>Login</h1> 
-          <!-- <p> 
-            <label for="nome_login">Seu e-mail</label>
+          <h1>cadastro</h1> 
+         <p> 
+            <label for="nome_login">nome</label>
             <input id="nome_login" name="nome" required="required" type="text" />
-          </p>  -->
-            <label for="email_login">Seu e-mail</label>
+          </p>
+<br></br>
+          <label for="email_login">Sobrenome</label>
+            <input id="email" name="email" required="required" type="text" />
+          </p> 
+
+            <label for="email_login">e-mail</label>
             <input id="email" name="email" required="required" type="text" />
           </p> 
           <p> 
-            <label for="senha_login">Sua senha</label>
+            <label for="senha_login">senha</label>
             <input id="senha" name="senha" required="required" type="password"  /> 
           </p>
           <p> 
@@ -38,8 +43,9 @@
             <input type="submit" value="Entrar" name="entrar"/> 
           </p>
           <p class="link">
-            <a href="./cadUsuario.php">Cadastre-se</a>
+            <a href="./cadUsuario.php">login</a>
             <a href="../index.php">Ínicio</a>
+            
           </p>
         </form>
       </div>
