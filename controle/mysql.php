@@ -22,12 +22,13 @@ namespace Mysql {
         public function select($tabela, $colunas = "*", $where = "1=1") {
             $sql = "SELECT $colunas FROM $tabela $where";
             $result = $this->executar($sql);
+            $linha = null;
             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                $return[] = $row;
-                return $return;
+                $linha[] = $row;
             }
-            
+            return $linha;
         }
+
 
         /**
          * Função para inserir dados na tabela
