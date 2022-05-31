@@ -15,10 +15,10 @@
     <a class="links" id="paraprodutos"></a>
     <a class="links" id=""></a>
     <div class="content">      
-      <!--FORMULÁRIO DE LOGIN-->
+      <!--FORMULÁRIO DE CADASTRO-->
       <div id="login">
         <form method="post" action="../controle/controleUsuario.php"> 
-          <h1>cadastro</h1> 
+          <h1>FAÇA O SEU CADASTRO</h1> 
          <p> 
             <label for="nome_login">nome</label>
             <input id="nome_login" name="nome" required="required" type="text" />

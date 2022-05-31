@@ -7,7 +7,7 @@
   
   body{
     margin:10px;
-    background-color: #0b6d34;
+    background-color: #ddb500;
   }
   
 header{
@@ -16,7 +16,7 @@ header{
 
 header h1{
   font-size: 48px;
-    color: #0a7a1d;
+    color: #000000;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -24,10 +24,7 @@ header h1{
     padding-bottom: 30px;
 }
 
-.produtos{
-  display: flex;
 
-}
 
   a{
     text-decoration: none;
@@ -49,7 +46,7 @@ header h1{
   /* formatando o cabeçalho dos formulários */
   .titulo{
     font-size: 48px;
-    color: #0e8d63;
+    color: #55544e;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -127,7 +124,7 @@ header h1{
   .button1 {
     background-color: white;
     color: black;
-    border: 2px solid #08680c; /* Green */
+    border: 2px solid #ddb500; /* Green */
 }
   input[type="submit"]:hover{
     background: #4ab3c6;

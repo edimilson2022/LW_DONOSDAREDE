@@ -17,7 +17,7 @@
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
         <form method="post" action="../controle/controleUsuario.php"> 
-          <h1>Login</h1> 
+          <h1>FAÇA LOGIN PARA ENTRAR</h1> 
 
             <label for="email_login">Seu e-mail</label>
             <input id="email" name="email" required="required" type="text" />
