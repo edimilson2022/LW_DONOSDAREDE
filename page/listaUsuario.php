@@ -22,11 +22,11 @@
                     <td><?php echo $valor['email']; ?></td>
                     <td><?php echo $valor['senha']; ?></td>
                 </tr>
-
             <?php
             }
             ?>
 
+                  
         </tbody>
     </table>
 </div>

@@ -24,12 +24,13 @@ $resultados = $sth->fetchAll(PDO::FETCH_ASSOC);
 <h2>tabelaUsuario</h2>
 <?php
 if (count($resultados)) {s
-	foreach($resultados as $Resultado) {
+	foreach($resultados as $Resultado) 
 ?>
 <label><?php echo $Resultado['id']; ?> - <?php echo $Resultado['nome']; ?></label>
 <br>
 <?
-} } else {
+} 
+    else {
 ?>
 <label>Não foram encontrados resultados pelo termo buscado.</label>
 <?php

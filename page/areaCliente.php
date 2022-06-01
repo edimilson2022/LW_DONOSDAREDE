@@ -22,7 +22,6 @@
 <div class="imagem">
  <img src="https://cdn.awsli.com.br/300x300/1861/1861887/produto/110891414/87f6989a5a.jpg" >
  <div class="capa">
-   <h1 class="texto">PREÇO</h1>
    <p>129,90$</p>
    
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
@@ -34,7 +33,6 @@
  <div class="imagem">
  <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
  <div class="capa">
-   <h1 class="texto">PREÇO</h1>
    <p>159,90$</p>
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
 
@@ -44,7 +42,6 @@
 <div class="imagem">
  <img src="https://www.cimentoverdedobrasil.com.br/wp-content/uploads/2016/02/camisa-do-flamengo-ii-s-no-2016-adidas-masculina-img-300x300.jpg" >
  <div class="capa">
-   <h1 class="texto">PREÇO</h1>
    <p>89,90</p>
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
    
@@ -58,7 +55,6 @@
   <div class="produto">
  <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
  <div class="capa">
-   <h1 class="texto">PREÇO</h1>
    <p>159,90$</p>
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
 
@@ -69,7 +65,6 @@
  <div class="imagem">
  <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
  <div class="capa">
-   <h1 class="texto">PREÇO</h1>
    <p>159,90$</p>
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
 
@@ -80,9 +75,10 @@
  <div class="imagem">
  <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
  <div class="capa">
-   <h1 class="texto">PREÇO</h1>
-   <p>159,90$</p>
-   <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
+   
+   <p> Á Vista 159,90$ </p>
+   <p> 3x de 53,15</p>
+   <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:#8a0808dc; border-color:#8a0808dc; color:#8a0808dc">COMPRAR</a>
 
  </div>
  

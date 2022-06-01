@@ -7,7 +7,7 @@
   
   body{
     margin:10px;
-    background-color: #ddb500;
+    background-color: #1c5f68;
   }
   
 header{
@@ -46,7 +46,7 @@ header h1{
   /* formatando o cabeçalho dos formulários */
   .titulo{
     font-size: 48px;
-    color: #55544e;
+    color: #8a0808dc;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -124,10 +124,10 @@ header h1{
   .button1 {
     background-color: white;
     color: black;
-    border: 2px solid #ddb500; /* Green */
+    border: 2px solid #1c5f68; /* Green */
 }
   input[type="submit"]:hover{
-    background: #4ab3c6;
+    background: #1c5f68;
   }
   
   /*marcando os links para mudar de um formulário para outro */
@@ -150,7 +150,7 @@ header h1{
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(17, 145, 91);
+    color: rgb(16, 61, 57);
     margin-left: 10px;
     border: 1px solid #080803;
   
