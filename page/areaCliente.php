@@ -16,9 +16,14 @@
 <h1 class="titulo">shirt store</h1>
   </header>
 
-
+  <figure class="wp-block-table">
+    <table>
+      <tbody>
+        <tr>
+          <td>
 <div class="produtos"> 
   <div class="produto">
+  
 <div class="imagem">
  <img src="https://cdn.awsli.com.br/300x300/1861/1861887/produto/110891414/87f6989a5a.jpg" >
  <div class="capa">
@@ -26,6 +31,11 @@
    
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
   
+</td>
+</tr>
+</tbody>
+</table>
+  </figure>
  </div>
 </div>
 
