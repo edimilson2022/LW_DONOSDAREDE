@@ -8,7 +8,7 @@
 </head>
 
 <body class="indice">
-     <h1>ACESSE A LOJA</h1>
+     <h1>LOJA</h1>
      <br></br>
 
      <div class="content">

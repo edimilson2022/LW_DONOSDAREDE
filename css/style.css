@@ -42,6 +42,10 @@ header h1{
     position: relative; 
     display: flex;
   }
+
+  .body{
+    
+  }
   
   /* formatando o cabeçalho dos formulários */
   .titulo{
