@@ -1,13 +1,13 @@
 <?php
+declare(strict_types= 1);
 
-     $hostname="localhost";
-     $bancodedados="projeto";
-     $usuario="root";
-     $senha="";
+$pdo = null;
 
-     $mysql= new mysqli($hostname, $usuario, $senha, $bancodedados);
-     if($mysql->connect_errno){
-         echo"falha ao connectar: (" . $mysqli ->connect_errno . ")" . $mysqli->connect_error;
-     }else
-      echo"conectado!";
- ?>
+try{
+  $pdo = new PDO('mysql:host=localhost;dbname=projeto', 'root', '');
+}catch(Exception $e){
+  echo $e->getMessage();
+  die();
+}
+
+return $pdo;
