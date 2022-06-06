@@ -76,6 +76,7 @@
  <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
  <div class="capa">
    <p>159,90$</p>
+   <p> 3x de 53,15</p>
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
 
  </div>
