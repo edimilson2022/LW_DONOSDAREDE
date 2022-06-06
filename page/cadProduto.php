@@ -7,7 +7,7 @@
 <br></br>
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="indice">
+<body class="indice2">
   <div class="container" >
       <a class="links" id="paracadastro"></a>
       <a class="links" id="paralogin"></a>

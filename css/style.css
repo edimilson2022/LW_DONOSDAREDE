@@ -7,7 +7,8 @@
   
   body{
     margin:10px;
-    background-color: #1c5f68;
+    background-color: #8df2ff;
+
   }
   
 header{
@@ -43,19 +44,15 @@ header h1{
     display: flex;
   }
 
-  .body{
-    
+  #tbody{
+    background-color: #080803;
   }
   
   /* formatando o cabeçalho dos formulários */
   
-  .tbody{
-  background-color:aquamarine;
-  }
-  
   .titulo{
     font-size: 48px;
-    color: #8a0808dc;
+    color: #ffee00dc;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -68,8 +65,8 @@ header h1{
     width: 100vw;
     height: 10px;
     margin-top: 10px;
-    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
-    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -webkit-linear-gradient(left, rgba(0, 83, 94, 0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(182, 183, 202, 0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
   } 
 
   .capa .texto{
@@ -133,10 +130,10 @@ header h1{
   .button1 {
     background-color: white;
     color: black;
-    border: 2px solid #1c5f68; /* Green */
+    border: 2px solid #8df2ff; /* Green */
 }
   input[type="submit"]:hover{
-    background: #1c5f68;
+    background: #8df2ff;
   }
   
   /*marcando os links para mudar de um formulário para outro */
@@ -159,7 +156,7 @@ header h1{
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(16, 61, 57);
+    color: rgb(160, 255, 247);
     margin-left: 10px;
     border: 1px solid #080803;
   
@@ -170,7 +167,7 @@ header h1{
     transition: all 0.4s  linear;
   }
   .link a:hover {
-    color: #032329;
+    color: #8df2ff;
     background: #f7f7f7;
     border: 1px solid #4ab3c6;
   }
@@ -181,6 +178,12 @@ header h1{
   
   .indice{
     background-image: url('../img/campo.jpg');
+  }
+  .indice1{
+    background-color: #A9A9A9;
+  }
+  .indice2{
+    background-color: #A9A9A9;
   }
   /* estilos para para ambos os formulários */
   #cadastro,
