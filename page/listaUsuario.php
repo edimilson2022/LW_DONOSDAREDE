@@ -1,32 +1,45 @@
-<div class="container" style="border: 1px solid black">
-    <table class="content">
-        <thead class="link">
-            <td class="">ID</td>
-            <td>NOME</td>
-            <td>EMAIL</td>
-            <td>SENHA</td>
-            <td><button onclick="">X</button></td>
-        </thead>
-        <tbody>
-            <?php
-            $pdo = require '../controle/conexao.php';
+<br></br>
+<body class="indice1">
+    </thead>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <tbody>
+        <div class="container">
+            <table class="table table-striped table-dark">
+                <thead class="thead-dark">
+                    <tr>
+                        <td scope="col">ID</td>
+                        <td scope="col">NOME</td>
+                        <td scope="col">EMAIL</td>
+                        <td scope="col">SENHA</td>
 
-            $sql = "select * from usuario";
+                    </tr>
 
-            $resultado = $pdo->query($sql);
-            foreach ($resultado as $key => $valor) {
-            ?>
-                <tr>
-                    <td><?php echo $valor['id']; ?></td>
-                    <td><?php echo $valor['nome']; ?></td>
-                    <td><?php echo $valor['email']; ?></td>
-                    <td><?php echo $valor['senha']; ?></td>
-                </tr>
-            <?php
-            }
-            ?>
+                </thead>
+                <?php
 
-                  
-        </tbody>
+                $pdo = require '../controle/conexao.php';
+
+                $sql = "select * from usuario";
+
+                $resultado = $pdo->query($sql);
+                foreach ($resultado as $key => $valor) {
+                ?>
+                    <tr scope="row">
+                        <td><?php echo $valor['id']; ?></td>
+                        <td><?php echo $valor['nome']; ?></td>
+                        <td><?php echo $valor['email']; ?></td>
+                        <td><?php echo $valor['senha']; ?></td>
+                    </tr>
+                    
+                <?php
+                }
+                ?>
+  </style>
+    </tbody>
     </table>
-</div>
+    </tbody>
+    </div>

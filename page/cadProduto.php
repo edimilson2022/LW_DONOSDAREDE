@@ -7,24 +7,24 @@
 <br></br>
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="indice">
+<body class="indice2">
   <div class="container" >
       <a class="links" id="paracadastro"></a>
       <a class="links" id="paralogin"></a>
       <div class="content">      
         </div>
         
-        <form  method="POST"  action="processa.php" enctype="multipart/form-data">
+        <form  method="post"  action="../controle/controleProduto.php" enctype="multipart/form-data">
               <label>Nome</label> 
               <input type="text" name="nome">
-              <label>Nome</label> 
-              <input type="text" name="nome">
-              <label>preco</label> 
+              <label>Quantidade</label> 
+              <input type="text" name="quantidade">
+              <label>preço</label> 
               <input type="text" name="preco">
               <label>Imagem</label> 
               <input type="file" name="arquivo"/>
-              <input type="submit" value="Cadastrar">
+              <input type="submit" value="Cadastrar" name="cadastrar">
         </form>
-        
+
 </body>
 </html>
