@@ -16,11 +16,6 @@
 <h1 class="titulo">shirt store</h1>
   </header>
 
-  <figure class="wp-block-table">
-    <table>
-      <tbody>
-        <tr>
-          <td>
 <div class="produtos"> 
   <div class="produto">
   
@@ -30,12 +25,6 @@
    <p>129,90$</p>
    
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
-  
-</td>
-</tr>
-</tbody>
-</table>
-  </figure>
  </div>
 </div>
 
@@ -73,6 +62,7 @@
  </div>
 
  <div class="imagem">
+ <div class="produto">
  <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
  <div class="capa">
    <p>159,90$</p>
@@ -83,6 +73,7 @@
  </div>
 
  <div class="imagem">
+ <div class="produto">
  <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
  <div class="capa">
    
@@ -97,6 +88,7 @@
 
 </div>
 <style type="text/css">
+  
 body{
   overflow-x: hidden;
 }
@@ -104,6 +96,7 @@ body{
 .imagem {
   position: relative;
   display: flex;
+  margin-right: 60px;
   height: 300px;
   width: 300px;
   background-size: cover;
@@ -121,6 +114,7 @@ justify-content: space-around;
   height: 100px;
   display: grid;
   grid-column: 3fr;
+  
   justify-content: space-around;
   
 }
@@ -129,13 +123,16 @@ img{
   display: flex;
   width: 300px;
   background-size: cover;
+  top: 10;
 }
 .capa {
   display: none;
+  top: 50;
 }
 
 .imagem:hover .capa {
   display: block;
+  top: 50;
 }
 
 .capa {
@@ -143,6 +140,7 @@ img{
   position: absolute;
   top: 0;
 }
+
 
 </style> 
 </body>

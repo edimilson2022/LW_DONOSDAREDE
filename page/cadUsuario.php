@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
+<br></br>
 <html lang="pt-br">
 
 <head>
