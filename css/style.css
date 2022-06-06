@@ -130,7 +130,7 @@ header h1{
   .button1 {
     background-color: white;
     color: black;
-    border: 2px solid #8df2ff; /* Green */
+    border: 2px solid #0c1111; /* Green */
 }
   input[type="submit"]:hover{
     background: #8df2ff;
