@@ -8,8 +8,6 @@
   
     <title>Área do Cliente</title>
 
-    
-    
 </head>
 <body> 
   <header>
