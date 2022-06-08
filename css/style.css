@@ -133,7 +133,7 @@ header h1{
     border: 2px solid #0c1111; /* Green */
 }
   input[type="submit"]:hover{
-    background: #8df2ff;
+    background: #34484b;
   }
   
   /*marcando os links para mudar de um formulário para outro */
@@ -156,7 +156,7 @@ header h1{
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(160, 255, 247);
+    color: rgb(27, 41, 40);
     margin-left: 10px;
     border: 1px solid #080803;
   
@@ -186,7 +186,7 @@ header h1{
   }
   
   .indice2{
-    background-color: #A9A9A9;
+    background-color: #572929;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -210,6 +210,8 @@ header h1{
     animation-timing-function: ease;
     animation-fill-mode: both;
   }
+
+  
 
   /* estilos para para ambos os formulários */
   #cadastro,
