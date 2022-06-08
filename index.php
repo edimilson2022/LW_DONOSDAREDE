@@ -21,27 +21,5 @@
                </nav>
           </div>
      </div>
-     <?php
-          require("conexao.php");
-
-          $sql = "SELECT * FROM produtos";
-          $qr = mysql_query($sql) or die(mysql_error());
-          while($ln = mysql_fetch_assoc($qr)){
-             echo '
-<h2>'.$ln['nome'].'</h2>
-
-';
-             echo 'Preço : R$ '.number_format($ln['preco'], 2, ',', '.').'
-';
-             echo '<img src="image/'.$ln['imagem'].'" />
-';
-             echo '<a href="carrinho.php?acao=add&id='.$ln['id'].'">Comprar</a>';
-             echo '
-<hr />
-
-';
-          }
-    ?>
-
 </body>
 </html>
