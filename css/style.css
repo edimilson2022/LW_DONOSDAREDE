@@ -179,7 +179,6 @@ header h1{
   .indice{
     background-image: url('../img/campo.jpg');
     
-    
   }
   .indice1{
     background-color: #A9A9A9;
@@ -217,8 +216,9 @@ header h1{
     animation-fill-mode: both;
   }
   
-
-  
+  .indice9{
+    background-image: url('../img/4046FE0A-6FD1-4FB4-81D9-F02F2CA74D07.jpeg');
+  }
 
   /* estilos para para ambos os formulários */
   #cadastro,

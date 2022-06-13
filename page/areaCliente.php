@@ -9,7 +9,7 @@
     <title>Área do Cliente</title>
 
 </head>
-<body> 
+<body class="indice9"> 
   <header>
 <h1 class="titulo">shirt store</h1>
   </header>
@@ -50,7 +50,7 @@
 
 <div class="imagem">
   <div class="produto">
- <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
+ <img src="https://www.mundodofutebol.com.br/imagens/produto/-5878-09-2020.jpg" >
  <div class="capa">
    <p>159,90$</p>
    <a class="btn btn-dark" href="paginadecompra.php" role="button" type="button" style="background-color:black; border-color:red; color:white">COMPRAR</a>
@@ -61,7 +61,7 @@
 
  <div class="imagem">
  <div class="produto">
- <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
+ <img src="https://static.netshoes.com.br/produtos/camisa-de-time-new-balance-liverpool-fc-3rd-ss-jersey-masculino/14/D17-1652-014/D17-1652-014_zoom1.jpg" >
  <div class="capa">
    <p>159,90$</p>
    <p> 3x de 53,15</p>
@@ -73,7 +73,7 @@
 
  <div class="imagem">
  <div class="produto">
- <img src="https://cdn.awsli.com.br/300x300/1973/1973315/produto/117528444/d6a7684a60.jpg" >
+ <img src="https://http2.mlstatic.com/camisa-do-time-bayern-de-munique-2016-vermelha-uniforme-novo-D_NQ_NP_301811-MLB20636866676_032016-F.jpg" >
  <div class="capa">
    
    <p> Á Vista 159,90$ </p>
