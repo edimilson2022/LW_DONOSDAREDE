@@ -25,5 +25,6 @@
               <input type="file" name="arquivo"/>
               <input type="submit" value="Cadastrar" name="cadastrar">
         </form>
+
 </body>
 </html>

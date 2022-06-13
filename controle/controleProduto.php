@@ -15,4 +15,8 @@ if ($_POST['cadastrar']) {
     } else {
         header("Location:../page/cadProduto.php");
     }  
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4

@@ -10,6 +10,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
   <title>LOJA</title>
 </head>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4
 <body class="indice">
   <div class="container">
     <form>
@@ -120,4 +124,5 @@
     
   </div>
 </body>
+
 </html>
