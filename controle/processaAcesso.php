@@ -23,6 +23,10 @@ include 'mysql.php';
             $pesquisa = $this->db->select('usuario', null);
             return $pesquisa;
         }
+        public function cadastraProduto($dados){
+            $insert = $this->db->insert('produtos', $dados);
+            return $insert;
+        }
     }
 }
 ?>

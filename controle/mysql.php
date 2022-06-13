@@ -17,7 +17,6 @@ namespace Mysql {
          * Função de seleção dos registros da tabela
          * @param string $tabela tabela onde será buscado os registros
          * @param string $colunas string contendo as colunas separadas
-
          */
         public function select($tabela, $colunas = "*", $where = "1=1") {
             $sql = "SELECT $colunas FROM $tabela $where";

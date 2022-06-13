@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8" />
   <title>Página de Login</title>
@@ -18,7 +17,7 @@
     <div class="content">
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
-        <form method="post" action="../controle/controleUsuario.php">
+        <form method="post" action="listaUsuario.php">
           <h1>FAÇA LOGIN PARA ENTRAR</h1>
 
           <label for="email_login">Seu e-mail</label>
@@ -41,7 +40,6 @@
           </p>
         </form>
       </div>
-      </form>
     </div>
   </div>
   </div>

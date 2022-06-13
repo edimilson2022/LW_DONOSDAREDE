@@ -1,6 +1,6 @@
 <?php
  
-    include_once('conexao.php');
+    include_once 'conexao.php';
     $nome=$_POST("nome");
     $nome_imagem = $_FILE["arquivo"]["nome"];
     echo "Nome do produto: $nome <br>";
@@ -24,5 +24,3 @@
     }
 
 ?>
-
-

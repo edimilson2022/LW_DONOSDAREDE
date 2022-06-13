@@ -11,10 +11,10 @@
             <table class="table table-striped table-dark">
                 <thead class="thead-dark">
                     <tr>
-                        <td scope="col">ID</td>
                         <td scope="col">NOME</td>
-                        <td scope="col">EMAIL</td>
-                        <td scope="col">SENHA</td>
+                        <td scope="col">QUANTIDADE</td>
+                        <td scope="col">PREÇO</td>
+                        <td scope="col">IMAGEM</td>
 
                     </tr>
 
@@ -29,13 +29,13 @@
                 foreach ($resultado as $key => $valor) {
                 ?>
                     <tr scope="row">
-                        <td><?php echo $valor['id']; ?></td>
                         <td><?php echo $valor['nome']; ?></td>
-                        <td><?php echo $valor['email']; ?></td>
-                        <td><?php echo $valor['senha']; ?></td>
+                        <td><?php echo $valor['quantidade']; ?></td>
+                        <td><?php echo $valor['preço']; ?></td>
+                        <td><?php echo $valor['imagem']; ?></td>
                     </tr>
                     
-                <?php
+                <?php 
                 }
                 ?>
   </style>

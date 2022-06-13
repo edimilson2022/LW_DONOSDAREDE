@@ -14,13 +14,16 @@
       <div class="content">      
         </div>
         
-        <form  method="POST"  action="processa.php" enctype="multipart/form-data">
-              <label>Nome:</label> 
-              <input type="text" name="nome"><br><br>
-              <label>Imagem:</label> 
+        <form  method="post"  action="../controle/controleProduto.php" enctype="multipart/form-data">
+              <label>Nome</label> 
+              <input type="text" name="nome">
+              <label>Quantidade</label> 
+              <input type="text" name="quantidade">
+              <label>preço</label> 
+              <input type="text" name="preco">
+              <label>Imagem</label> 
               <input type="file" name="arquivo"/>
-              <input type="submit" value="Cadastrar">
-
+              <input type="submit" value="Cadastrar" name="cadastrar">
         </form>
 </body>
 </html>
