@@ -7,19 +7,11 @@
     <link rel="stylesheet" href="../css/style.css">
   
     <title>Área do Cliente</title>
-<<<<<<< HEAD
-=======
-
->>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4
 </head>
 <body class="indice9"> 
   <header>
 <h1 class="titulo">shirt store</h1>
   </header>
-<<<<<<< HEAD
-=======
-
->>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4
 <div class="produtos"> 
   <div class="produto">
   
@@ -126,11 +118,8 @@ img{
   position: absolute;
   top: 0;
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4
 </style> 
 </body>
 </html>

@@ -1,4 +1,5 @@
 <br></br>
+
 <body class="indice1">
     </thead>
     <link rel="stylesheet" href="../css/style.css">
@@ -15,7 +16,8 @@
                         <td scope="col">NOME</td>
                         <td scope="col">EMAIL</td>
                         <td scope="col">SENHA</td>
-
+                        <td scope="col">Alterar</td>
+                        <td scope="col">Excluir</td>
                     </tr>
 
                 </thead>
@@ -33,12 +35,23 @@
                         <td><?php echo $valor['nome']; ?></td>
                         <td><?php echo $valor['email']; ?></td>
                         <td><?php echo $valor['senha']; ?></td>
+                        <td>
+                        <a href="../controle/alterar.php?id=<?php echo $valor['id']; ?>">
+                                <img src="../img/atualizar.png" alt="">
+                            </a>
+                        </td>
+                        <td>
+                        <a href="../controle/delete.php?id=<?php echo $valor['id']; ?>">
+                                <img src="../img/excluir.png" alt="">
+                            </a>
+                        </td>
+                     
                     </tr>
-                    
+
                 <?php
                 }
                 ?>
-  </style>
+                </style>
     </tbody>
     </table>
     </tbody>

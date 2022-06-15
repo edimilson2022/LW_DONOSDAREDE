@@ -1,18 +1,5 @@
 /* CSS reset */
 *, *:before, *:after { 
-<<<<<<< HEAD
-  margin:0;
-  padding:0;
-  font-family: Arial,sans-serif;
-}
-
-body{
-  margin:10px;
-  background-color: #8df2ff;
-
-}
-
-=======
     margin:0;
     padding:0;
     font-family: Arial,sans-serif;
@@ -24,7 +11,6 @@ body{
 
   }
   
->>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4
 header{
 height: 8vh;
 }
@@ -92,11 +78,6 @@ a.links{
 }
 
 
-<<<<<<< HEAD
-p{
-  margin-top:45px;
-}
-=======
 
   a{
     text-decoration: none;
@@ -242,7 +223,6 @@ p{
     background: #f7f7f7;
     border: 1px solid #4ab3c6;
   }
->>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4
 
 p:first-child{
   margin: 0px;
@@ -394,7 +374,12 @@ input[type="submit"]:hover{
   background: #f7f7f7;
   border: 1px solid #4ab3c6;
 }
-
+/* Alterando tamanho da imagem */
+td img{
+  width: 100px;
+  height: 60px;
+  
+}
 #menu{
   width: 100%;
 }
@@ -402,38 +387,13 @@ input[type="submit"]:hover{
 .indice{
   background-image: url('../img/campo.jpg');
   
-<<<<<<< HEAD
-}
-.indice1{
-  background-color: #A9A9A9;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 10%;
-  left: 7%;
- 
-}
-
-.indice2{
-  background-color: #572929;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 30%; 
-  padding: 18px 6% 60px 6%;
-  margin: 0 0 35px 0;
-  background: rgb(247, 247, 247);
-  border: 1px solid rgba(147, 184, 189,0.8);
-  display: flex;
-  justify-content: center;
-  
-  -webkit-box-shadow: 5px;
-  border-radius: 5px;
-=======
     -webkit-animation-delay: .1s;
     animation-delay: .1s;
   }
+
+  .indice1{
+    background-image: url('../img/logofutebol.jpg');
+    }
   #registro:target ~ .content #login,
   #paralogin:target ~ .content #cadastro{
     -webkit-animation-name: fadeOutLeft;
@@ -450,16 +410,15 @@ input[type="submit"]:hover{
       -webkit-transform: translateX(0);
     }
   }
->>>>>>> 791324af3e494fbbc156e67fec21eae26e3f2bf4
   
-  -webkit-animation-duration: 0.s;
+  /* -webkit-animation-duration: 0.s;
   -webkit-animation-timing-function: ease;
   -webkit-animation-fill-mode: both;
 
   animation-duration: 0.s;
   animation-timing-function: ease;
-  animation-fill-mode: both;
-}
+  animation-fill-mode: both; */
+
 
 .indice9{
   background-image: url('../img/4046FE0A-6FD1-4FB4-81D9-F02F2CA74D07.jpeg');
