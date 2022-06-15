@@ -45,7 +45,7 @@
                                 <img src="../img/excluir.png" alt="">
                             </a>
                         </td>
-                     
+                        
                     </tr>
 
                 <?php
